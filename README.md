@@ -20,12 +20,8 @@ Put the frontend settings in ```/src/statics/keycloak.json``` file that will be 
 ```json
 {
   "realm": "SERVER-DEV",
-  "auth-server-url": "https://keycloak.mydomain.com/auth",
-  "ssl-required": "external",
-  "resource": "app-name",
-  "public-client": true,
-  "use-resource-role-mappings": true,
-  "confidential-port": 0
+  "url": "https://keycloak.mydomain.com/auth",
+  "clientId": "app-name"
 }
 ```
 
